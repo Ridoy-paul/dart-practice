@@ -14,6 +14,10 @@ void main() {
   // Different typs variable concate.
   print("Name: $myName \nAge: $age");
 
+  //Final keywords is define for static variable which is unchanged
+  final staticVariable = 10000;
+  print(staticVariable);
+
   int a = 1;
   int b = 3;
   int c = 100;
