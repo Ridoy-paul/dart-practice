@@ -9,8 +9,13 @@ void main() {
   int myAge = 24;
 
   //Same type variable concate
-  print(firstName+lastName);
+  print(firstName + lastName);
 
   // Different typs variable concate.
   print("Name: $myName \nAge: $age");
+
+  int a = 1;
+  int b = 3;
+  int c = 100;
+  print(a + b + c);
 }
