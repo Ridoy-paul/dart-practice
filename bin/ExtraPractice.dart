@@ -7,4 +7,11 @@ void main() {
   final gender = "male";
 
   print("First Name: $firstName \nMiddle Name: $middleName \nLast Name: $lastName \nAge: $age \nGender: $gender");
+
+
+  // is and is! operators ------------>>> it explains the true and false.
+  double n = 2.2222;
+  var nIsInt = n is! int;
+  print(nIsInt);
+
 }
