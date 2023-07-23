@@ -17,11 +17,22 @@ There are 2 kinds of loops ->>
 
   for (var i = num; i >= 1; i--) {
     factorial *= i;
-    print(factorial);
+    //print(factorial);
   }
 
-  
+  // For in loop =>>>>>
+  var obj = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  for (var item in obj) {
+    //print(item);
+  }
 
+  // While loop
+  num = 10;
 
-
+  while (num >= 1) {
+    if (num % 2 == 0) {
+      print(num);
+    } 
+    num--;
+  }
 }
