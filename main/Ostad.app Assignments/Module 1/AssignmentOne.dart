@@ -1,6 +1,6 @@
 void main() {
-  const a = 100;
-  const b = 8;
+  const int a = 100;
+  const int b = 8;
 
   print('a = $a, b = $b');
 
