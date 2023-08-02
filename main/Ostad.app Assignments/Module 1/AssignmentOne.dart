@@ -1,6 +1,6 @@
 void main() {
-  int a = 100;
-  int b = 8;
+  const a = 100;
+  const b = 8;
 
   print('a = $a, b = $b');
 
@@ -18,5 +18,5 @@ void main() {
 
   int modulus = a % b;
   print('Modulus: $a % $b = $modulus');
-  
+
 }
