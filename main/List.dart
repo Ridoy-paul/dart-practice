@@ -22,4 +22,12 @@ void main() {
   print(studentList.last);
   print(studentList.first);
   print(studentList.length); //To find out the length of the list.
+  studentList.forEach((name) {
+    print('Hello $name');
+  });
+
+  List<int> numbers = [33, 22, 77, 44];
+  print(numbers);
+
+ 
 }
