@@ -1,3 +1,5 @@
 void main() {
-  var myList = new List(10);
+  List<String> studentList = ['Ridoy', 'Abir', 'Rasel'];
+  print(studentList);
+  print(studentList[0]);
 }
