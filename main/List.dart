@@ -18,4 +18,8 @@ void main() {
   /// Remove from list by index.
   studentList.removeAt(2);
   print(studentList);
+
+  print(studentList.last);
+  print(studentList.first);
+  print(studentList.length); //To find out the length of the list.
 }
