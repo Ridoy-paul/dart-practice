@@ -12,4 +12,10 @@ void main() {
   studentList.forEach((id, name) {
     print('$id is $name');
   });
+
+  Map<String, dynamic> personsList = {
+    "firstName": "<NAME>",
+    "lastName": '<NAME>',
+    "age": "25",
+  };
 }
