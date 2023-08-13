@@ -1,4 +1,12 @@
 void main() {
+// Object type variable:
+  Object name = "Ridoy Paul";
+  print(name);
+
+  // Nullable type variable:
+  String? varName;
+  print(varName);
+
   // Variable Define
   var firstName = "Ridoy ";
   var lastName = "Paul";
