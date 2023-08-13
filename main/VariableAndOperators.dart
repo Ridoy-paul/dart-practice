@@ -1,3 +1,6 @@
+//Late keyword:
+late String description;
+
 void main() {
 // Object type variable:
   Object name = "Ridoy Paul";
@@ -6,6 +9,10 @@ void main() {
   // Nullable type variable:
   String? varName;
   print(varName);
+  assert(varName == null);
+
+  description = "Hello! This is Paul";
+  print(description);
 
   // Variable Define
   var firstName = "Ridoy ";
