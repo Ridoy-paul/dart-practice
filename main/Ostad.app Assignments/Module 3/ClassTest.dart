@@ -47,7 +47,6 @@ class Person {
   }
 }
 
-
 void name() {
   
 }
