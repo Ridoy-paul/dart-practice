@@ -17,7 +17,7 @@ class Car {
   }
 }
 
-void man() {
+void main() {
   Car bmw = Car("X7", "BMW", 1200000, "34553");
   bmw.carInfo();
 }
