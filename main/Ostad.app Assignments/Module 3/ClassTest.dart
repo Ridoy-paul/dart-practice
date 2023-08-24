@@ -1,5 +1,5 @@
 void main() {
-  Person ridoy = Person();
+  var ridoy = Person();
   ridoy.name = "Ridoy Paul";
   ridoy.age = 24;
   ridoy.address = "Mirpur, Dhaka";
@@ -15,7 +15,6 @@ void main() {
   arif.printInfo();
 
   StudentInfo rp = StudentInfo();
-  
 }
 
 class StudentInfo {
@@ -47,6 +46,9 @@ class Person {
   }
 }
 
-void name() {
+class MobileInfo {
+  late String brandName;
+  late String modelName;
+  late double price;
   
 }

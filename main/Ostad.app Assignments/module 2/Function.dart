@@ -10,7 +10,7 @@ void addition(int a, int b) {
   print(a + b);
 }
 
-String printInfo(String name, [String message = 'Null']) {
   // optional parameter in function
+String printInfo(String name, [String message = 'Null']) {
   return "Name: $name, Message: $message";
 }
